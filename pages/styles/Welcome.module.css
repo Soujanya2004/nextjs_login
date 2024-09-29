@@ -1,0 +1,32 @@
+/* styles/Welcome.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #004d40; /* Dark teal color */
+    text-align: center;
+}
+
+.welcomeTitle { /* Changed selector from h1 to .welcomeTitle */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.logoutButton {
+    padding: 15px 30px;
+    background-color: #0070f3; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+    background-color: #005bb5; /* Darker button color on hover */
+}
